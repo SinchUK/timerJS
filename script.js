@@ -10,10 +10,10 @@ window.addEventListener('DOMContentLoaded', function () {
             seconds = Math.floor((t/1000) % 60),
             minutes = Math.floor((t/1000/60) % 60),
             // ___________________________________________
-            // if need only hours
+            // if need hours without days 
             hours = Math.floor((t/(1000*60*60)));
             // ___________________________________________
-            //If need days when
+            //If need with days 
             // hours = Math.floor((t/1000/60/60) % 24),
             // days = Math.floor((t/(1000*60*60*24)));
 
